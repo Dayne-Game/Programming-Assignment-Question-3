@@ -22,7 +22,11 @@ namespace Prog_3
 
         public string GetFullName()
         {
-            return $"Person: {FirstName} {LastName} is {GetAge()} years old";
+            return $"{FirstName} {LastName} \n";
+        }
+        public string PersonInfo()
+        {
+            return $"Person: {FirstName} {LastName} is {GetAge()} years old \n";
         }
     }
 }
